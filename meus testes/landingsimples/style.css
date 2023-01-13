@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+body{
+    background-color: #0A0A0A;
+}
+
+header{
+    background-color: #0A0A0A;
+    height: 7.4vh;
+    border-bottom: 2px solid #363636;
+}
+
+div.menu {
+    position: relative;
+    text-align: center;
+
+}
+
+div.logo h1{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+div.by p{
+    position: absolute;
+    top: 50px;
+    left: 196px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+div.formulario {
+    text-align: end;
+}
+
+div.textos{
+position: relative;
+}
+
+div.textos h2{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    top: 30px;
+    left: 30px;
+
+}
+
+div.textos p{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.483);
+}
+
+div.coluna{
+    position: relative;
+}
+
+div.email label{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+div.email input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    height: 50px;
+    width: 92%;
+    background-color: #0A0A0A;
+    border: none;
+    border: 2px solid #363636;
+    color: white;
+}
+
+div.senha label{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 228px;
+    left: 30px;
+}
+
+div.senha input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 247px;
+    left: 30px;
+    height: 50px;
+    width: 92%;
+    background-color: #0A0A0A;
+    border: none;
+    border: 2px solid #363636;
+    color: white;
+}
+
+div.btn{
+    position: relative;
+}
+
+div.btn button{
+    position: absolute;
+    top: 374px;
+    left: 35px;
+    width: 500px;
+    height: 55px;
+    color: white;
+    background-color: #0065EF;
+    border-radius: 5px;
+    
+}
+
+div.links{
+    position: relative;
+    
+}
+
+div.links ul{
+    position: absolute;
+    top: 450px;
+    left: 160px;
+    list-style: none;
+    
+
+}
+
+div.links a {
+    color: #A0A0A0;
+}
+
+
+
+div.check{
+    position: absolute;
+    top: 330px;
+    left: 30px;
+}
+
+div.check input{
+    
+}
+
+div.check label{
+    color: #A0A0A0;
+}
+
+
+div.textos a{
+    color: white;
+}
+
+div.imagem img{
+    position: absolute;
+    top: 7px;
+    left: 125px;
+    height: 70px;
+}
