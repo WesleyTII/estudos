@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: url(/image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+nav.navigation{
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+nav.navigation ul{
+    display: flex;
+    gap: 40px;
+    padding-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navigation a{
+    color: white;
+}
+
+.logo{
+    width: 210px;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+}
+
+.logoo{
+    width: 40px;
+    height: 35px;
+}
+
+.the{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    width: 600px;
+    
+}
+
+div.botoes{
+    position: absolute;
+    top: 510px;
+    left: 80px;
+    
+}
+
+div.botoes button{ 
+    width: 180px;
+    height: 60px;
+    background-color: rgba(46, 30, 118, 0.107);
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+div.bio{
+    position: absolute;
+    top: 600px;
+    left: 80px;  
+}
+
+div.bio p{
+    color: white;
+    font-size: 20px;
+}
+
+div.assistir{
+    position: absolute;
+    top: 720px;
+    left: 80px;
+}
+
+div.assistir button{
+    width: 250px;
+    height: 90px;
+    background-color: #008ab9;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 5px solid white;
+}
+
+#play{
+   position: absolute;
+   top: 25px;
+   left: 40px;
+}
+
+
