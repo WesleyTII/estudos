@@ -14,7 +14,7 @@ html,body{
 }
 
 body{
-    background: url(/image/bg.jpg);
+    background: url(../image/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
